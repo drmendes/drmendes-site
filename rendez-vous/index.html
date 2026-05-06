@@ -34,11 +34,27 @@
     </script>
 </head>
 <body>
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-contact">
+                <a href="tel:+3219632745"><i data-lucide="phone"></i>+32 19 63 27 45</a>
+                <a href="mailto:info@drmendes.be"><i data-lucide="mail"></i>info@drmendes.be</a>
+            </div>
+            <div class="top-emergency">
+                <i data-lucide="alert-circle"></i><span data-i18n="topbar.emergency">Urgences: 112</span>
+            </div>
+        </div>
+    </div>
+
     <!-- Same navigation as homepage, but with relative paths pointing back -->
     <nav class="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <a href="../"><img src="../images/drmendes-logo-no-background.png" alt="Dr Silvia Mendes" style="max-height: 55px;"></a>
+                <a href="../" style="display: flex; align-items: center; gap: 12px;">
+                    <img src="../images/drmendes-logo-no-background.png" alt="Logo" style="max-height: 55px;">
+                    <span>Dr. Silvia Mendes</span>
+                </a>
             </div>
             
             <div class="nav-right">
@@ -100,7 +116,7 @@
             </div>
             
             <p class="help-text" data-i18n="appointment.help">
-                En cas de problème, contactez-nous au <a href="tel:+32XXXXXXXXX">+32 X XX XX XX XX</a>
+                En cas de problème, contactez-nous au <a href="tel:+3219632745">+32 19 63 27 45</a>
             </p>
         </div>
     </main>
@@ -111,7 +127,7 @@
             <div class="footer-content">
                 <div class="footer-col">
                     <div class="footer-logo">Dr Silvia Mendes</div>
-                    <p data-i18n="footer.tagline" style="opacity: 0.8;">Votre vision, notre priorité</p>
+                    <p data-i18n="footer.tagline" style="opacity: 0.8;">Le monde mérite d’être vu clairement.</p>
                 </div>
                 <div class="footer-col">
                     <h4 data-i18n="footer.linksTitle">Liens Rapides</h4>
@@ -123,7 +139,7 @@
                 </div>
                 <div class="footer-col footer-contact">
                     <h4 data-i18n="footer.contactTitle">Contact Direct</h4>
-                    <p><i data-lucide="phone" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="tel:+32XXXXXXXXX">+32 X XX XX XX XX</a></p>
+                    <p><i data-lucide="phone" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="tel:+3219632745">+32 19 63 27 45</a></p>
                     <p><i data-lucide="mail" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="mailto:info@drmendes.be">info@drmendes.be</a></p>
                     <p><i data-lucide="map-pin" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="../#location" data-i18n="footer.addressLink">Waremme, Belgique</a></p>
                 </div>
