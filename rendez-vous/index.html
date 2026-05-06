@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prendre rendez-vous - Dr Silvia Mendes</title>
     <meta name="description" content="Prenez rendez-vous en ligne avec le Dr Silvia Mendes, ophtalmologue à Liège.">
-    
+
     <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
@@ -13,26 +14,31 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="../css/style.css">
-    
+
     <!-- Mikrono required stylesheets -->
     <link href="https://backup.mikrono.com/gxt/css/fontawesome.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://backup.mikrono.com/css/style-responsive.css">
-    <link id="customerMikrono" type="text/css" rel="stylesheet" href="https://backup.mikrono.com/gxt/css/customerMikrono.css">
-    
+    <link id="customerMikrono" type="text/css" rel="stylesheet"
+        href="https://backup.mikrono.com/gxt/css/customerMikrono.css">
+
     <!-- Mikrono required scripts -->
-    <script type="text/javascript" language="javascript" src="https://backup.mikrono.com/myagenda/myagenda.nocache.js"></script>
+    <script type="text/javascript" language="javascript"
+        src="https://backup.mikrono.com/myagenda/myagenda.nocache.js"></script>
     <script type="text/javascript" language="javascript" src="https://backup.mikrono.com/js/lz-string.min.js"></script>
     <script type="text/javascript" language="javascript">
-        var asso_id="618bbb71592f20357e141af8";
+        var asso_id = "618bbb71592f20357e141af8";
     </script>
 </head>
+
 <body>
     <!-- Top Contact Bar -->
     <div class="top-bar">
@@ -56,7 +62,7 @@
                     <span>Dr. Silvia Mendes</span>
                 </a>
             </div>
-            
+
             <div class="nav-right">
                 <ul class="nav-menu">
                     <li><a href="../" data-i18n="nav.home">Accueil</a></li>
@@ -71,7 +77,7 @@
                     <button class="lang-btn" data-lang="nl">NL</button>
                     <button class="lang-btn" data-lang="en">EN</button>
                 </div>
-                
+
                 <button class="mobile-menu-toggle" aria-label="Menu">
                     <span></span>
                     <span></span>
@@ -86,19 +92,21 @@
         <div class="container">
             <h1 class="page-title" data-i18n="appointment.title">Prendre rendez-vous</h1>
             <p class="intro" data-i18n="appointment.intro">
-                Sélectionnez votre médecin, la date et l'heure souhaitées. 
+                Sélectionnez votre médecin, la date et l'heure souhaitées.
                 Vous recevrez une confirmation par email et SMS.
             </p>
-            
+
             <div class="appointment-stepper">
                 <div class="step-item active">
                     <span>1.</span> <span data-i18n="appointment.step1">Langue</span>
                 </div>
-                <div class="step-separator"><i data-lucide="chevron-right" style="width: 16px; display: inline; vertical-align: middle;"></i></div>
+                <div class="step-separator"><i data-lucide="chevron-right"
+                        style="width: 16px; display: inline; vertical-align: middle;"></i></div>
                 <div class="step-item">
                     <span>2.</span> <span data-i18n="appointment.step2">Horaire</span>
                 </div>
-                <div class="step-separator"><i data-lucide="chevron-right" style="width: 16px; display: inline; vertical-align: middle;"></i></div>
+                <div class="step-separator"><i data-lucide="chevron-right"
+                        style="width: 16px; display: inline; vertical-align: middle;"></i></div>
                 <div class="step-item">
                     <span>3.</span> <span data-i18n="appointment.step3">Confirmation</span>
                 </div>
@@ -106,15 +114,18 @@
 
             <!-- Mikrono Calendar Container -->
             <div id="mikrono" class="mikrono-container"></div>
-            
+
             <div class="urgency-notice">
                 <div class="urgency-icon"><i data-lucide="plus-square" style="width: 24px; height: 24px;"></i></div>
                 <div>
-                    <strong data-i18n="appointment.emergencyTitle" style="color: var(--primary-dark); display: block; margin-bottom: 5px;">Urgences médicales</strong>
-                    <span data-i18n="appointment.emergencyText">En cas d'urgence ophtalmologique, veuillez contacter directement le service d'urgence du CHC ou composer le 112.</span>
+                    <strong data-i18n="appointment.emergencyTitle"
+                        style="color: var(--primary-dark); display: block; margin-bottom: 5px;">Urgences
+                        médicales</strong>
+                    <span data-i18n="appointment.emergencyText">En cas d'urgence ophtalmologique, veuillez contacter
+                        directement le service d'urgence du CHC ou composer le 112.</span>
                 </div>
             </div>
-            
+
             <p class="help-text" data-i18n="appointment.help">
                 En cas de problème, contactez-nous au <a href="tel:+3219632745">+32 19 63 27 45</a>
             </p>
@@ -127,25 +138,19 @@
             <div class="footer-content">
                 <div class="footer-col">
                     <div class="footer-logo">Dr Silvia Mendes</div>
-                    <p data-i18n="footer.tagline" style="opacity: 0.8;">Le monde mérite d’être vu clairement.</p>
-                </div>
-                <div class="footer-col">
-                    <h4 data-i18n="footer.linksTitle">Liens Rapides</h4>
-                    <div class="footer-links">
-                        <a href="../" data-i18n="nav.home">Accueil</a>
-                        <a href="../#services" data-i18n="nav.services">Services</a>
-                        <a href="./" data-i18n="nav.appointment">Rendez-vous</a>
-                    </div>
+                    <p data-i18n="footer.tagline" style="opacity: 0.8;">Le monde mérite d'être vu clairement.</p>
                 </div>
                 <div class="footer-col footer-contact">
                     <h4 data-i18n="footer.contactTitle">Contact Direct</h4>
                     <p><i data-lucide="phone" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="tel:+3219632745">+32 19 63 27 45</a></p>
                     <p><i data-lucide="mail" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="mailto:info@drmendes.be">info@drmendes.be</a></p>
-                    <p><i data-lucide="map-pin" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="../#location" data-i18n="footer.addressLink">Waremme, Belgique</a></p>
+                    <p><i data-lucide="map-pin" style="width: 16px; display: inline; vertical-align: text-bottom;"></i>
+                        <a href="../#location" data-i18n="footer.addressLink">Waremme, Belgique</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <span id="current-year"></span> Dr Silvia Mendes - Ophtalmologie. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+                <p>&copy; <span id="current-year"></span> Dr Silvia Mendes - Ophtalmologie. <span
+                        data-i18n="footer.rights">Tous droits réservés.</span></p>
             </div>
         </div>
     </footer>
@@ -154,4 +159,5 @@
     <script src="../js/i18n.js"></script>
     <script src="../js/main.js"></script>
 </body>
+
 </html>

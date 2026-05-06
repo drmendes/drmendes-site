@@ -769,7 +769,9 @@ ul {
 
 @media (min-width: 768px) {
     .footer-content {
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 }
 
