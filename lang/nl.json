@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Startpagina",
+    "appointment": "Afspraak",
+    "services": "Diensten",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Praktijk Dr Silvia Mendes",
+    "subtitle": "Oogheelkunde - Kwalitatieve oogzorg",
+    "intro": "Gespecialiseerde praktijk die een volledige en gepersonaliseerde behandeling biedt voor de gezondheid van uw ogen.",
+    "cta": "Afspraak maken"
+  },
+  "about": {
+    "title": "Over ons",
+    "text1": "Dr. Silvia Mendes is oogarts in het CHC in Luik, gespecialiseerd in uitgebreide oogzorg. Met een patiëntgerichte aanpak biedt zij nauwkeurige diagnoses en geavanceerde behandelingen.",
+    "text2": "De praktijk is uitgerust met de nieuwste technologieën om een optimale opvolging van uw visuele gezondheid te garanderen.",
+    "affiliated": "Verbonden aan"
+  },
+  "services": {
+    "title": "Onze diensten",
+    "exams": "Uitgebreide onderzoeken",
+    "examsText": "Diagnose en opvolging voor het hele gezin. Screening op visuele stoornissen.",
+    "cataract": "Cataractchirurgie",
+    "cataractText": "Moderne en veilige chirurgische technieken om helder zicht te herstellen.",
+    "glaucoma": "Glaucoom",
+    "glaucomaText": "Vroege screening, regelmatige opvolging en behandeling op maat voor elk stadium.",
+    "retina": "Netvliesaandoeningen",
+    "retinaText": "Behandeling van LMD, diabetische retinopathie en andere aandoeningen.",
+    "pediatric": "Pediatrische oogheelkunde",
+    "pediatricText": "Gespecialiseerde consultaties voor kinderen vanaf de jongste leeftijd.",
+    "emergency": "Noodgevallen",
+    "emergencyText": "Snelle behandeling van oftalmologische noodgevallen."
+  },
+  "contact": {
+    "title": "Contact & Praktische informatie",
+    "detailsTitle": "Contactgegevens",
+    "hoursTitle": "Openingsuren",
+    "addressLabel": "Adres:",
+    "phoneLabel": "Telefoon:"
+  },
+  "days": {
+    "monday": "Maandag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "thursday": "Donderdag",
+    "friday": "Vrijdag",
+    "weekend": "Zaterdag - Zondag"
+  },
+  "status": {
+    "closed": "Gesloten"
+  },
+  "appointment": {
+    "title": "Afspraak maken",
+    "intro": "Selecteer hieronder de gewenste datum en tijd. U ontvangt een bevestiging via e-mail en sms.",
+    "emergencyTitle": "Noodgevallen:",
+    "emergencyText": "Bij oogheelkundige noodgevallen, neem rechtstreeks contact op met de CHC-spoedafdeling of bel 112.",
+    "help": "Neem bij problemen contact met ons op via "
+  },
+  "footer": {
+    "bookMikrono": "Maak een afspraak via Mikrono",
+    "rights": "Alle rechten voorbehouden."
+  }
+}

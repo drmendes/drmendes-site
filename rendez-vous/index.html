@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prendre rendez-vous - Dr Silvia Mendes</title>
+    <meta name="description" content="Prenez rendez-vous en ligne avec le Dr Silvia Mendes, ophtalmologue à Liège.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <!-- Mikrono required stylesheets -->
+    <link href="https://backup.mikrono.com/gxt/css/fontawesome.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://backup.mikrono.com/css/style-responsive.css">
+    <link id="customerMikrono" type="text/css" rel="stylesheet" href="https://backup.mikrono.com/gxt/css/customerMikrono.css">
+    
+    <!-- Mikrono required scripts -->
+    <script type="text/javascript" language="javascript" src="https://backup.mikrono.com/myagenda/myagenda.nocache.js"></script>
+    <script type="text/javascript" language="javascript" src="https://backup.mikrono.com/js/lz-string.min.js"></script>
+    <script type="text/javascript" language="javascript">
+        var asso_id="618bbb71592f20357e141af8";
+    </script>
+</head>
+<body>
+    <!-- Same navigation as homepage, but with relative paths pointing back -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="../">Dr Silvia Mendes</a>
+            </div>
+            
+            <div class="nav-right">
+                <ul class="nav-menu">
+                    <li><a href="../" data-i18n="nav.home">Accueil</a></li>
+                    <li><a href="./" class="active" data-i18n="nav.appointment">Rendez-vous</a></li>
+                    <li><a href="../#services" data-i18n="nav.services">Services</a></li>
+                    <li><a href="../#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+
+                <!-- Language Switcher -->
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="fr">FR</button>
+                    <button class="lang-btn" data-lang="nl">NL</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Appointment Section -->
+    <main class="appointment-page section">
+        <div class="container">
+            <h1 class="page-title" data-i18n="appointment.title">Prendre rendez-vous</h1>
+            <p class="intro" data-i18n="appointment.intro">
+                Sélectionnez votre médecin, la date et l'heure souhaitées. 
+                Vous recevrez une confirmation par email et SMS.
+            </p>
+            
+            <div class="disclaimer-alert">
+                <strong data-i18n="appointment.emergencyTitle">Urgences:</strong> 
+                <span data-i18n="appointment.emergencyText">En cas d'urgence ophtalmologique, veuillez contacter directement le service d'urgence du CHC ou composer le 112.</span>
+            </div>
+
+            <!-- Mikrono Calendar Container -->
+            <div id="mikrono" class="mikrono-container"></div>
+            
+            <p class="help-text" data-i18n="appointment.help">
+                En cas de problème, contactez-nous au <a href="tel:+32XXXXXXXXX">+32 X XX XX XX XX</a>
+            </p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Dr Silvia Mendes</div>
+                <div class="footer-links">
+                    <a href="https://www.chc.be/" target="_blank" rel="noopener">CHC Hospital</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Dr Silvia Mendes - Ophtalmologie. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/i18n.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

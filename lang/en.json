@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Home",
+    "appointment": "Appointment",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Dr Silvia Mendes Practice",
+    "subtitle": "Ophthalmology - Quality Eye Care",
+    "intro": "Specialized practice offering comprehensive and personalized care for your eye health.",
+    "cta": "Book an Appointment"
+  },
+  "about": {
+    "title": "About",
+    "text1": "Dr Silvia Mendes is an ophthalmologist at CHC Hospital in Liège, specializing in comprehensive eye care. With a patient-centric approach, she offers accurate diagnoses and cutting-edge treatments.",
+    "text2": "The practice is equipped with the latest technologies to ensure optimal monitoring of your visual health.",
+    "affiliated": "Affiliated with"
+  },
+  "services": {
+    "title": "Our Services",
+    "exams": "Comprehensive Exams",
+    "examsText": "Diagnosis and monitoring for the whole family. Vision disorder screening.",
+    "cataract": "Cataract Surgery",
+    "cataractText": "Modern and safe surgical techniques to restore clear vision.",
+    "glaucoma": "Glaucoma",
+    "glaucomaText": "Early screening, regular monitoring, and tailored treatment for every stage.",
+    "retina": "Retinal Diseases",
+    "retinaText": "Management of AMD, diabetic retinopathy, and other conditions.",
+    "pediatric": "Pediatric Ophthalmology",
+    "pediatricText": "Specialized consultations for children from an early age.",
+    "emergency": "Emergencies",
+    "emergencyText": "Rapid response for ophthalmological emergencies."
+  },
+  "contact": {
+    "title": "Contact & Practical Info",
+    "detailsTitle": "Contact Details",
+    "hoursTitle": "Opening Hours",
+    "addressLabel": "Address:",
+    "phoneLabel": "Phone:"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "weekend": "Saturday - Sunday"
+  },
+  "status": {
+    "closed": "Closed"
+  },
+  "appointment": {
+    "title": "Book an Appointment",
+    "intro": "Select your preferred date and time below. You will receive a confirmation by email and SMS.",
+    "emergencyTitle": "Emergencies:",
+    "emergencyText": "For eye emergencies, please contact CHC emergency department directly or call 112.",
+    "help": "If you experience any issues, contact us at "
+  },
+  "footer": {
+    "bookMikrono": "Book via Mikrono",
+    "rights": "All rights reserved."
+  }
+}

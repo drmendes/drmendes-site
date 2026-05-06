@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "appointment": "Rendez-vous",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Cabinet Dr Silvia Mendes",
+    "subtitle": "Ophtalmologie - Soins des yeux de qualité",
+    "intro": "Cabinet spécialisé offrant une prise en charge complète et personnalisée pour la santé de vos yeux.",
+    "cta": "Prendre rendez-vous"
+  },
+  "about": {
+    "title": "À propos",
+    "text1": "Le Dr Silvia Mendes est ophtalmologue au CHC de Liège, spécialisée dans les soins oculaires complets. Avec une approche centrée sur le patient, elle offre des diagnostics précis et des traitements de pointe.",
+    "text2": "Le cabinet est équipé des dernières technologies pour assurer un suivi optimal de votre santé visuelle.",
+    "affiliated": "Affiliée à"
+  },
+  "services": {
+    "title": "Nos services",
+    "exams": "Examens complets",
+    "examsText": "Diagnostic et suivi pour toute la famille. Dépistage des troubles de la vision.",
+    "cataract": "Chirurgie de la cataracte",
+    "cataractText": "Techniques chirurgicales modernes et sûres pour restaurer une vision claire.",
+    "glaucoma": "Glaucome",
+    "glaucomaText": "Dépistage précoce, suivi régulier et traitement adapté à chaque stade.",
+    "retina": "Maladies de la rétine",
+    "retinaText": "Prise en charge de la DMLA, rétinopathie diabétique et autres affections.",
+    "pediatric": "Ophtalmologie pédiatrique",
+    "pediatricText": "Consultations spécialisées pour les enfants dès le plus jeune âge.",
+    "emergency": "Urgences",
+    "emergencyText": "Prise en charge rapide des urgences ophtalmologiques."
+  },
+  "contact": {
+    "title": "Contact & Informations pratiques",
+    "detailsTitle": "Coordonnées",
+    "hoursTitle": "Heures d'ouverture",
+    "addressLabel": "Adresse:",
+    "phoneLabel": "Téléphone:"
+  },
+  "days": {
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "weekend": "Samedi - Dimanche"
+  },
+  "status": {
+    "closed": "Fermé"
+  },
+  "appointment": {
+    "title": "Prendre rendez-vous",
+    "intro": "Sélectionnez la date et l'heure souhaitées ci-dessous. Vous recevrez une confirmation par email et SMS.",
+    "emergencyTitle": "Urgences:",
+    "emergencyText": "En cas d'urgence ophtalmologique, veuillez contacter directement le service d'urgence du CHC ou composer le 112.",
+    "help": "En cas de problème, contactez-nous au "
+  },
+  "footer": {
+    "bookMikrono": "Prendre RDV via Mikrono",
+    "rights": "Tous droits réservés."
+  }
+}

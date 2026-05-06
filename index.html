@@ -1,12 +1,200 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dr Silvia Mendes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Silvia Mendes - Ophtalmologie Liège</title>
+    <meta name="description" content="Cabinet d'ophtalmologie Dr Silvia Mendes à Liège. Soins oculaires professionnels, examens de la vue, chirurgie de la cataracte.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr Silvia Mendes",
+      "specialty": "Ophthalmology",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BE",
+        "addressLocality": "Liège"
+      },
+      "url": "https://drmendes.be",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CHC Hospital",
+        "url": "https://www.chc.be/"
+      }
+    }
+    </script>
 </head>
 <body>
-  <h1>Site en construction</h1>
-  <p>Le nouveau site du cabinet du Dr Silvia Mendes arrive bientôt.</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="./">Dr Silvia Mendes</a>
+            </div>
+            
+            <div class="nav-right">
+                <!-- Menu -->
+                <ul class="nav-menu">
+                    <li><a href="./" class="active" data-i18n="nav.home">Accueil</a></li>
+                    <li><a href="rendez-vous/" data-i18n="nav.appointment">Rendez-vous</a></li>
+                    <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+                
+                <!-- Language Switcher -->
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="fr">FR</button>
+                    <button class="lang-btn" data-lang="nl">NL</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                
+                <!-- Mobile menu toggle -->
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 data-i18n="hero.title">Cabinet Dr Silvia Mendes</h1>
+            <p data-i18n="hero.subtitle">Ophtalmologie - Soins des yeux de qualité</p>
+            <p class="hero-intro" data-i18n="hero.intro">Cabinet spécialisé offrant une prise en charge complète et personnalisée pour la santé de vos yeux.</p>
+            <a href="rendez-vous/" class="btn btn-primary" data-i18n="hero.cta">Prendre rendez-vous</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">À propos</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about.text1">
+                        Le Dr Silvia Mendes est ophtalmologue au CHC de Liège, spécialisée dans les soins oculaires complets. Avec une approche centrée sur le patient, elle offre des diagnostics précis et des traitements de pointe.
+                    </p>
+                    <p data-i18n="about.text2">
+                        Le cabinet est équipé des dernières technologies pour assurer un suivi optimal de votre santé visuelle.
+                    </p>
+                    <div class="affiliation-badge">
+                        <span data-i18n="about.affiliated">Affiliée à</span>
+                        <a href="https://www.chc.be/Professionnels/Silvia-MENDES" target="_blank" rel="noopener" class="chc-link">
+                            CHC Hospital →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview section bg-light" id="services">
+        <div class="container">
+            <h2 class="section-title" data-i18n="services.title">Nos services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">👁️</div>
+                    <h3 data-i18n="services.exams">Examens complets</h3>
+                    <p data-i18n="services.examsText">Diagnostic et suivi pour toute la famille. Dépistage des troubles de la vision.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔬</div>
+                    <h3 data-i18n="services.cataract">Chirurgie de la cataracte</h3>
+                    <p data-i18n="services.cataractText">Techniques chirurgicales modernes et sûres pour restaurer une vision claire.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3 data-i18n="services.glaucoma">Glaucome</h3>
+                    <p data-i18n="services.glaucomaText">Dépistage précoce, suivi régulier et traitement adapté à chaque stade.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👓</div>
+                    <h3 data-i18n="services.retina">Maladies de la rétine</h3>
+                    <p data-i18n="services.retinaText">Prise en charge de la DMLA, rétinopathie diabétique et autres affections.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👶</div>
+                    <h3 data-i18n="services.pediatric">Ophtalmologie pédiatrique</h3>
+                    <p data-i18n="services.pediatricText">Consultations spécialisées pour les enfants dès le plus jeune âge.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3 data-i18n="services.emergency">Urgences</h3>
+                    <p data-i18n="services.emergencyText">Prise en charge rapide des urgences ophtalmologiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">Contact & Informations pratiques</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3 data-i18n="contact.detailsTitle">Coordonnées</h3>
+                    <ul class="contact-info-list">
+                        <li>
+                            <strong>📍 <span data-i18n="contact.addressLabel">Adresse:</span></strong>
+                            <span>[Adresse du cabinet], Liège, Belgique</span>
+                        </li>
+                        <li>
+                            <strong>📞 <span data-i18n="contact.phoneLabel">Téléphone:</span></strong>
+                            <a href="tel:+32XXXXXXXXX">+32 X XX XX XX XX</a>
+                        </li>
+                        <li>
+                            <strong>✉️ Email:</strong>
+                            <a href="mailto:info@drmendes.be">info@drmendes.be</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-card">
+                    <h3 data-i18n="contact.hoursTitle">Heures d'ouverture</h3>
+                    <ul class="hours-list">
+                        <li><span data-i18n="days.monday">Lundi</span>: 08:30 - 18:00</li>
+                        <li><span data-i18n="days.tuesday">Mardi</span>: 08:30 - 18:00</li>
+                        <li><span data-i18n="days.wednesday">Mercredi</span>: 08:30 - 12:00</li>
+                        <li><span data-i18n="days.thursday">Jeudi</span>: 08:30 - 18:00</li>
+                        <li><span data-i18n="days.friday">Vendredi</span>: 08:30 - 17:00</li>
+                        <li><span data-i18n="days.weekend">Samedi - Dimanche</span>: <span data-i18n="status.closed">Fermé</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Dr Silvia Mendes</div>
+                <div class="footer-links">
+                    <a href="https://www.chc.be/" target="_blank" rel="noopener">CHC Hospital</a>
+                    <a href="https://drmendes.mikrono.com/" target="_blank" rel="noopener" data-i18n="footer.bookMikrono">Prendre RDV via Mikrono</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Dr Silvia Mendes - Ophtalmologie. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
