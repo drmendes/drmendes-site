@@ -6,8 +6,17 @@
     <title>Prendre rendez-vous - Dr Silvia Mendes</title>
     <meta name="description" content="Prenez rendez-vous en ligne avec le Dr Silvia Mendes, ophtalmologue à Liège.">
     
-    <!-- Favicon -->
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="../css/style.css">
@@ -29,7 +38,7 @@
     <nav class="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <a href="../">Dr Silvia Mendes</a>
+                <a href="../"><img src="../images/drmendes-logo-no-background.png" alt="Dr Silvia Mendes" style="max-height: 55px;"></a>
             </div>
             
             <div class="nav-right">
@@ -65,13 +74,30 @@
                 Vous recevrez une confirmation par email et SMS.
             </p>
             
-            <div class="disclaimer-alert">
-                <strong data-i18n="appointment.emergencyTitle">Urgences:</strong> 
-                <span data-i18n="appointment.emergencyText">En cas d'urgence ophtalmologique, veuillez contacter directement le service d'urgence du CHC ou composer le 112.</span>
+            <div class="appointment-stepper">
+                <div class="step-item active">
+                    <span>1.</span> <span data-i18n="appointment.step1">Langue</span>
+                </div>
+                <div class="step-separator"><i data-lucide="chevron-right" style="width: 16px; display: inline; vertical-align: middle;"></i></div>
+                <div class="step-item">
+                    <span>2.</span> <span data-i18n="appointment.step2">Horaire</span>
+                </div>
+                <div class="step-separator"><i data-lucide="chevron-right" style="width: 16px; display: inline; vertical-align: middle;"></i></div>
+                <div class="step-item">
+                    <span>3.</span> <span data-i18n="appointment.step3">Confirmation</span>
+                </div>
             </div>
 
             <!-- Mikrono Calendar Container -->
             <div id="mikrono" class="mikrono-container"></div>
+            
+            <div class="urgency-notice">
+                <div class="urgency-icon"><i data-lucide="plus-square" style="width: 24px; height: 24px;"></i></div>
+                <div>
+                    <strong data-i18n="appointment.emergencyTitle" style="color: var(--primary-dark); display: block; margin-bottom: 5px;">Urgences médicales</strong>
+                    <span data-i18n="appointment.emergencyText">En cas d'urgence ophtalmologique, veuillez contacter directement le service d'urgence du CHC ou composer le 112.</span>
+                </div>
+            </div>
             
             <p class="help-text" data-i18n="appointment.help">
                 En cas de problème, contactez-nous au <a href="tel:+32XXXXXXXXX">+32 X XX XX XX XX</a>
@@ -83,9 +109,23 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">Dr Silvia Mendes</div>
-                <div class="footer-links">
-                    <a href="https://www.chc.be/" target="_blank" rel="noopener">CHC Hospital</a>
+                <div class="footer-col">
+                    <div class="footer-logo">Dr Silvia Mendes</div>
+                    <p data-i18n="footer.tagline" style="opacity: 0.8;">Votre vision, notre priorité</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer.linksTitle">Liens Rapides</h4>
+                    <div class="footer-links">
+                        <a href="../" data-i18n="nav.home">Accueil</a>
+                        <a href="../#services" data-i18n="nav.services">Services</a>
+                        <a href="./" data-i18n="nav.appointment">Rendez-vous</a>
+                    </div>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4 data-i18n="footer.contactTitle">Contact Direct</h4>
+                    <p><i data-lucide="phone" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="tel:+32XXXXXXXXX">+32 X XX XX XX XX</a></p>
+                    <p><i data-lucide="mail" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="mailto:info@drmendes.be">info@drmendes.be</a></p>
+                    <p><i data-lucide="map-pin" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="../#location" data-i18n="footer.addressLink">Waremme, Belgique</a></p>
                 </div>
             </div>
             <div class="footer-bottom">

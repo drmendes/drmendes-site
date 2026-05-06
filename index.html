@@ -6,8 +6,17 @@
     <title>Dr Silvia Mendes - Ophtalmologie Liège</title>
     <meta name="description" content="Cabinet d'ophtalmologie Dr Silvia Mendes à Liège. Soins oculaires professionnels, examens de la vue, chirurgie de la cataracte.">
     
-    <!-- Favicon -->
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -38,7 +47,7 @@
     <nav class="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <a href="./">Dr Silvia Mendes</a>
+                <a href="./"><img src="images/drmendes-logo-no-background.png" alt="Dr Silvia Mendes" style="max-height: 55px;"></a>
             </div>
             
             <div class="nav-right">
@@ -82,7 +91,7 @@
     <section class="about section" id="about">
         <div class="container">
             <h2 class="section-title" data-i18n="about.title">À propos</h2>
-            <div class="about-content">
+            <div class="about-grid">
                 <div class="about-text">
                     <p data-i18n="about.text1">
                         Le Dr Silvia Mendes est ophtalmologue au CHC de Liège, spécialisée dans les soins oculaires complets. Avec une approche centrée sur le patient, elle offre des diagnostics précis et des traitements de pointe.
@@ -97,6 +106,9 @@
                         </a>
                     </div>
                 </div>
+                <div class="about-image-container">
+                    <img src="images/doctor-at-work.png" alt="Dr Silvia Mendes at work" class="about-image">
+                </div>
             </div>
         </div>
     </section>
@@ -107,32 +119,32 @@
             <h2 class="section-title" data-i18n="services.title">Nos services</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">👁️</div>
+                    <div class="service-icon"><i data-lucide="eye"></i></div>
                     <h3 data-i18n="services.exams">Examens complets</h3>
                     <p data-i18n="services.examsText">Diagnostic et suivi pour toute la famille. Dépistage des troubles de la vision.</p>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🔬</div>
+                    <div class="service-icon"><i data-lucide="microscope"></i></div>
                     <h3 data-i18n="services.cataract">Chirurgie de la cataracte</h3>
                     <p data-i18n="services.cataractText">Techniques chirurgicales modernes et sûres pour restaurer une vision claire.</p>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">📊</div>
+                    <div class="service-icon"><i data-lucide="activity"></i></div>
                     <h3 data-i18n="services.glaucoma">Glaucome</h3>
                     <p data-i18n="services.glaucomaText">Dépistage précoce, suivi régulier et traitement adapté à chaque stade.</p>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">👓</div>
+                    <div class="service-icon"><i data-lucide="glasses"></i></div>
                     <h3 data-i18n="services.retina">Maladies de la rétine</h3>
                     <p data-i18n="services.retinaText">Prise en charge de la DMLA, rétinopathie diabétique et autres affections.</p>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">👶</div>
+                    <div class="service-icon"><i data-lucide="baby"></i></div>
                     <h3 data-i18n="services.pediatric">Ophtalmologie pédiatrique</h3>
                     <p data-i18n="services.pediatricText">Consultations spécialisées pour les enfants dès le plus jeune âge.</p>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🏥</div>
+                    <div class="service-icon"><i data-lucide="stethoscope"></i></div>
                     <h3 data-i18n="services.emergency">Urgences</h3>
                     <p data-i18n="services.emergencyText">Prise en charge rapide des urgences ophtalmologiques.</p>
                 </div>
@@ -140,39 +152,37 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact section" id="contact">
-        <div class="container">
-            <h2 class="section-title" data-i18n="contact.title">Contact & Informations pratiques</h2>
-            <div class="contact-grid">
-                <div class="contact-card">
-                    <h3 data-i18n="contact.detailsTitle">Coordonnées</h3>
-                    <ul class="contact-info-list">
-                        <li>
-                            <strong>📍 <span data-i18n="contact.addressLabel">Adresse:</span></strong>
-                            <span>[Adresse du cabinet], Liège, Belgique</span>
-                        </li>
-                        <li>
-                            <strong>📞 <span data-i18n="contact.phoneLabel">Téléphone:</span></strong>
-                            <a href="tel:+32XXXXXXXXX">+32 X XX XX XX XX</a>
-                        </li>
-                        <li>
-                            <strong>✉️ Email:</strong>
-                            <a href="mailto:info@drmendes.be">info@drmendes.be</a>
-                        </li>
-                    </ul>
+    <!-- Contact & Location Section -->
+    <section id="contact" class="location-section">
+        <div class="location-wrapper">
+            <div class="location-info-box">
+                <h2 class="location-title" data-i18n="location.title">Notre Cabinet à Waremme</h2>
+                
+                <div class="info-grid">
+                    <div class="info-column">
+                        <h4 data-i18n="contact.hoursTitle">Heures d'ouverture</h4>
+                        <ul class="hours-list">
+                            <li><span data-i18n="days.monday">Lundi</span>: 08:30 - 18:00</li>
+                            <li><span data-i18n="days.tuesday">Mardi</span>: 08:30 - 18:00</li>
+                            <li><span data-i18n="days.wednesday">Mercredi</span>: 08:30 - 12:00</li>
+                            <li><span data-i18n="days.thursday">Jeudi</span>: 08:30 - 18:00</li>
+                            <li><span data-i18n="days.friday">Vendredi</span>: 08:30 - 17:00</li>
+                            <li><span data-i18n="days.weekend">Samedi - Dimanche</span>: <span data-i18n="status.closed">Fermé</span></li>
+                        </ul>
+                    </div>
+                    <div class="info-column full-width">
+                        <h4 data-i18n="contact.addressLabel">Adresse:</h4>
+                        <p data-i18n="contact.addressText">Rue Gustave Rénier 16, 4300 Waremme, Belgique</p>
+                    </div>
                 </div>
-                <div class="contact-card">
-                    <h3 data-i18n="contact.hoursTitle">Heures d'ouverture</h3>
-                    <ul class="hours-list">
-                        <li><span data-i18n="days.monday">Lundi</span>: 08:30 - 18:00</li>
-                        <li><span data-i18n="days.tuesday">Mardi</span>: 08:30 - 18:00</li>
-                        <li><span data-i18n="days.wednesday">Mercredi</span>: 08:30 - 12:00</li>
-                        <li><span data-i18n="days.thursday">Jeudi</span>: 08:30 - 18:00</li>
-                        <li><span data-i18n="days.friday">Vendredi</span>: 08:30 - 17:00</li>
-                        <li><span data-i18n="days.weekend">Samedi - Dimanche</span>: <span data-i18n="status.closed">Fermé</span></li>
-                    </ul>
-                </div>
+            </div>
+            <div class="location-map" id="location">
+                <iframe 
+                    src="https://maps.google.com/maps?q=50.695308,5.250621&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </div>
     </section>
@@ -181,10 +191,23 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">Dr Silvia Mendes</div>
-                <div class="footer-links">
-                    <a href="https://www.chc.be/" target="_blank" rel="noopener">CHC Hospital</a>
-                    <a href="https://drmendes.mikrono.com/" target="_blank" rel="noopener" data-i18n="footer.bookMikrono">Prendre RDV via Mikrono</a>
+                <div class="footer-col">
+                    <div class="footer-logo">Dr Silvia Mendes</div>
+                    <p data-i18n="footer.tagline" style="opacity: 0.8;">Votre vision, notre priorité</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer.linksTitle">Liens Rapides</h4>
+                    <div class="footer-links">
+                        <a href="./" data-i18n="nav.home">Accueil</a>
+                        <a href="#services" data-i18n="nav.services">Services</a>
+                        <a href="rendez-vous/" data-i18n="nav.appointment">Rendez-vous</a>
+                    </div>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4 data-i18n="footer.contactTitle">Contact Direct</h4>
+                    <p><i data-lucide="phone" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="tel:+32XXXXXXXXX">+32 X XX XX XX XX</a></p>
+                    <p><i data-lucide="mail" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="mailto:info@drmendes.be">info@drmendes.be</a></p>
+                    <p><i data-lucide="map-pin" style="width: 16px; display: inline; vertical-align: text-bottom;"></i> <a href="#location" data-i18n="footer.addressLink">Waremme, Belgique</a></p>
                 </div>
             </div>
             <div class="footer-bottom">

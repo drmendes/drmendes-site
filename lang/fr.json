@@ -37,7 +37,11 @@
     "detailsTitle": "Coordonnées",
     "hoursTitle": "Heures d'ouverture",
     "addressLabel": "Adresse:",
+    "addressText": "Rue Gustave Rénier 16, 4300 Waremme, Belgique",
     "phoneLabel": "Téléphone:"
+  },
+  "location": {
+    "title": "Notre Cabinet à Waremme"
   },
   "days": {
     "monday": "Lundi",
@@ -55,10 +59,17 @@
     "intro": "Sélectionnez la date et l'heure souhaitées ci-dessous. Vous recevrez une confirmation par email et SMS.",
     "emergencyTitle": "Urgences:",
     "emergencyText": "En cas d'urgence ophtalmologique, veuillez contacter directement le service d'urgence du CHC ou composer le 112.",
-    "help": "En cas de problème, contactez-nous au "
+    "help": "En cas de problème, contactez-nous au ",
+    "step1": "Langue",
+    "step2": "Horaire",
+    "step3": "Confirmation"
   },
   "footer": {
     "bookMikrono": "Prendre RDV via Mikrono",
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "tagline": "Votre vision, notre priorité",
+    "linksTitle": "Liens Rapides",
+    "contactTitle": "Contact Direct",
+    "addressLink": "Waremme, Belgique"
   }
 }

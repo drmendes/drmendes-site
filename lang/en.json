@@ -37,7 +37,11 @@
     "detailsTitle": "Contact Details",
     "hoursTitle": "Opening Hours",
     "addressLabel": "Address:",
+    "addressText": "Rue Gustave Rénier 16, 4300 Waremme, Belgium",
     "phoneLabel": "Phone:"
+  },
+  "location": {
+    "title": "Our Practice in Waremme"
   },
   "days": {
     "monday": "Monday",
@@ -55,10 +59,17 @@
     "intro": "Select your preferred date and time below. You will receive a confirmation by email and SMS.",
     "emergencyTitle": "Emergencies:",
     "emergencyText": "For eye emergencies, please contact CHC emergency department directly or call 112.",
-    "help": "If you experience any issues, contact us at "
+    "help": "If you experience any issues, contact us at ",
+    "step1": "Language",
+    "step2": "Schedule",
+    "step3": "Confirmation"
   },
   "footer": {
     "bookMikrono": "Book via Mikrono",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "tagline": "Your vision, our priority",
+    "linksTitle": "Quick Links",
+    "contactTitle": "Direct Contact",
+    "addressLink": "Waremme, Belgium"
   }
 }

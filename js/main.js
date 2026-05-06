@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Initialize Lucide icons
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
+
     // Set current year in footer
     const yearSpan = document.getElementById('current-year');
     if (yearSpan) {

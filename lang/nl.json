@@ -37,7 +37,11 @@
     "detailsTitle": "Contactgegevens",
     "hoursTitle": "Openingsuren",
     "addressLabel": "Adres:",
+    "addressText": "Rue Gustave Rénier 16, 4300 Waremme, België",
     "phoneLabel": "Telefoon:"
+  },
+  "location": {
+    "title": "Onze Praktijk in Waremme"
   },
   "days": {
     "monday": "Maandag",
@@ -55,10 +59,17 @@
     "intro": "Selecteer hieronder de gewenste datum en tijd. U ontvangt een bevestiging via e-mail en sms.",
     "emergencyTitle": "Noodgevallen:",
     "emergencyText": "Bij oogheelkundige noodgevallen, neem rechtstreeks contact op met de CHC-spoedafdeling of bel 112.",
-    "help": "Neem bij problemen contact met ons op via "
+    "help": "Neem bij problemen contact met ons op via ",
+    "step1": "Taal",
+    "step2": "Tijdstip",
+    "step3": "Bevestiging"
   },
   "footer": {
     "bookMikrono": "Maak een afspraak via Mikrono",
-    "rights": "Alle rechten voorbehouden."
+    "rights": "Alle rechten voorbehouden.",
+    "tagline": "Uw visie, onze prioriteit",
+    "linksTitle": "Snelle Links",
+    "contactTitle": "Direct Contact",
+    "addressLink": "Waremme, België"
   }
 }
